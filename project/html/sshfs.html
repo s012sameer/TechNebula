@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>TechNebula | STAAS</title>
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+</head>
+
+<body>
+
+		<section id="body" class="width">
+			<aside id="sidebar" class="column-left">
+
+			<header>
+				<h1><a href="#">TechNebula</a></h1>
+
+				<h2>Welcome to Virtualization!</h2>
+				
+			</header>
+
+			<nav id="mainnav">
+  				<ul>
+                            		<li><a href="index.html">Home</a></li>
+                            		<li><a href="saas.html">SAAS : Storage as a Service</a></li>
+                           		 <li class="selected-item">
+                           		 	<a href="st.html">STAAS : Software as a service</a></li>  
+                            		<li><a href="iaas.html">IAAS : Infra as a service</a></li>
+                            		<li><a href="paas.html">PAAS : Platform as a service</a></li>
+                            		<li><a href="caas.html">CAAS : Container as a service</a></li>
+                            		
+                        	</ul>
+			</nav>
+
+			
+			
+			</aside>
+			<section id="content" class="column-right">
+                		
+	    <article>
+	    		
+	    		<h1> Object Storage by SSHFS</h1>
+	    		<br>
+				<fieldset>
+					<legend>Request for storage</legend>
+					<form action="http://192.168.91.130/cgi-bin/sshfs.py" method="POST">
+						<p><label for="name">Name:</label>
+						<input type="text" name="name" /><br /></p>		
+						<p><label for="password">Password:</label>
+						<input type="password" name="password"  /><br /></p>
+						<p><label for="size">Size (GB):</label>
+						<input type="text" name="size" /><br /></p>
+						<input type="submit" value="Submit">
+					</form>
+	
+				</fieldset>
+		</article>
+
+			
+			<footer class="clear">
+				<p>&copy;TechNebula @ <a href="http://www.facebook.com/s012sameer" > Sameer Kumar</a></p>
+			</footer>
+
+		</section>
+
+		<div class="clear"></div>
+
+	</section>
+	
+
+</body>
+</html>
